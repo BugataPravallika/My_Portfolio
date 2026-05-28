@@ -144,8 +144,8 @@ export const Hero: React.FC = () => {
 
             {/* Resume Button */}
             <a
-              href="/Bugata_Pravallika_Resume.pdf"
-              download="Bugata_Pravallika_Resume.pdf"
+              href="/Bugata_Pravallika.pdf"
+              download="Bugata_Pravallika.pdf"
               className="px-6 py-3 rounded-2xl glass-panel border border-cyber-border-dark font-semibold text-white dark:text-white light:text-slate-800 hover:border-cyber-purple/40 scale-100 hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 flex items-center gap-2 group"
             >
               <Download size={18} className="group-hover:translate-y-0.5 transition-transform duration-300" />
