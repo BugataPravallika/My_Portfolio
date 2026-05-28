@@ -1,0 +1,21 @@
+{
+  "name": "pravallika-portfolio",
+  "version": "1.0.0",
+  "description": "Premium Futuristic Full-Stack Portfolio for Bugata Pravallika",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install --legacy-peer-deps",
+    "install:all": "npm run install:server && npm run install:client",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "build:all": "npm run build:server && npm run build:client",
+    "start:server": "cd server && npm run start",
+    "preview:client": "cd client && npm run preview",
+    "check:api": "node -e \"fetch('http://localhost:5000/api/health').then(r=>r.text()).then(t=>console.log(t)).catch(e=>{console.error(e);process.exit(1);})\""
+  },
+  "keywords": [],
+  "author": "Bugata Pravallika",
+  "license": "ISC"
+}
